@@ -1,0 +1,15 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "tasks": {
+    "dev": "deno run -A --watch main.ts",
+    "test": "deno test --watch src/day_1_test.ts"
+  },
+  "compilerOptions": {
+    "strict": true
+  },
+  "lint": {
+    "include": [
+      "src/"
+    ]
+  }
+}
