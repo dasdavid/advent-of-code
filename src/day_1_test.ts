@@ -2,7 +2,6 @@ import { assertEquals } from "https://deno.land/std/assert/assert_equals.ts";
 import { parseLine } from "./day_1.ts";
 
 Deno.test("Day 1", async (t) => {
-  t.name = "Part 2";
   await t.step("Should parse line", () => {
     const test_cases: Array<[string, number]> = [
       [

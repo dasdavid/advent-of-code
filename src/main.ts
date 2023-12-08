@@ -1,11 +1,12 @@
 import { day_1 } from "./day_1.ts";
 import { day_2 } from "./day_2.ts";
-
+import { day_3 } from "./day_3.ts";
 const [, argDay] = Deno.args;
 
 const days: Record<number, (arg0: string) => [number, number]> = {
   1: day_1,
   2: day_2,
+  3: day_3,
 };
 
 if (!argDay) {
